@@ -9,7 +9,7 @@ public class Application {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
 					try {
-						
+						System.out.println();
 						GUIForm.login.frame.setVisible(true);
 					} catch (Exception e) {
 						
